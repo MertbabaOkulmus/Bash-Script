@@ -56,7 +56,7 @@ else
 echo "Malesef yaşınız çalışmaya uygun değil"
 fi
 
-if [ $yas>20  -o  $yas==18 ]
+if [ $yas>20  -o  $yas==18 ] # yada [[$yas>20] -o []]
 then
 echo "yaşınız 20 den büyük veya 18"
 fi
