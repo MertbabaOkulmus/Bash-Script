@@ -43,3 +43,20 @@ echo "girilen kelime bash den küçüktür alfabetik sıraya göre"
 else
 echo "girilen kelime bash den büyüktür alfabetik sıraya göre"
 fi
+
+##AND, OR operatörleri
+#AND --> && (-a)
+#OR  --> || (-o)
+
+read -p "Yaşınızı giriniz:" yas
+if (( $yas >= 18)) && (( $yas <=30 ))  # yada [ $yas >= 18 -a  $yas <=30 ] şeklinde yazıla bilir
+then
+echo "Yaşınız uygun"
+else
+echo "Malesef yaşınız çalışmaya uygun değil"
+fi
+
+if [ $yas>20  -o  $yas==18 ]
+then
+echo "yaşınız 20 den büyük veya 18"
+fi
