@@ -1,0 +1,2 @@
+merhaba 
+text dosyasına scrpit ile yazı yazıyorum

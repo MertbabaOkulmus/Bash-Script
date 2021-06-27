@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo -e "Dosyanın ismini giriniz:\c"
+echo -e "Dosyanın ismini giriniz:\c"  #\c ve -e ifadelerini imleç bir alt satıra geçmeden aynı satırda dosya adını yazabilmek için ekledik 
 
 read dosyaismi
 
